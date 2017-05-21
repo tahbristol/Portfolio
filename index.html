@@ -3,10 +3,11 @@
 <html>
 	<head>
         <meta charset="utf-8">
+
 		<meta name="viewport" content="width=device-width">
 		<meta name="description" content="A portfolio website by Tyler A. Bristol. Hosted live starting 2016." />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		
+
 
 		<link rel="stylesheet" type="text/css" href="Portfolio.css"/>
                 <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
@@ -16,7 +17,7 @@
 	</head>
 
 	<body>
-
+<!--Navigation-->
       <div class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-header">
@@ -45,58 +46,62 @@
 				<div class="header">
 					<div class="container">
         			<div class="row first">
+						<!--Info blurb about me-->
             			<div class="col-md-8">
                 			<p class="bio">I &rsquo; m a Biologist turned Front-End Developer with experience in responsive design, interactive apps and intuitive layouts.</p>
             			</div>
+						<!--Profile Image-->
             			<div class="col-md-4 me">
-                    		<img id="me" class="img-responsive" alt="Responsive image" src="https://dl.dropboxusercontent.com/u/11413212/TylerCar.JPG"/>
+                    		<img id="me" class="img-responsive" alt="Responsive image" src="https://www.dropbox.com/s/2svbt8zryod7ojo/TylerCar.JPG?dl=1" />
             			</div>
 					</div>
 				</div>
 				</div>
 
-
+	<!--Thumbnail images of other web projects-->
 	<div class="sitesScroll"></div>
 	<div class="container sites">
 
-		<div class="col-md-4">
+		      <div class="col-md-4">
+           <div class="detail_text">
+						 <p class='details'>An example site for a small business</p>
+					<img id="sistersSite" src="https://www.dropbox.com/s/zt1u6kftj1e6tm3/SistersScreen1%20copy.png?dl=1" class="img-responsive" alt="Responsive image"/>
+				</div>
+				</div>
 
-			<a href="http://www.sistersandsweets.com"><img id="sistersSite" src="https://dl.dropboxusercontent.com/u/11413212/SistersScreen1%20copy.png" class="img-responsive" alt="Responsive image"/></a>
-		</div>
+				<div class="col-md-4">
+					<div class="detail_text">
+						<p class='details'>Tribute Page: A project for FreeCodeCamp</p>
+					<img src="https://www.dropbox.com/s/1bdurev6syrhvg3/BruceScreen.png?dl=1" class="img-responsive" alt="Responsive image"/>
+				</div>
+			</div>
+				<div class="col-md-4">
 
-		<div class="col-md-4">
-
-			<a href="https://codepen.io/tahbristol/full/NRXBBp/"><img src="https://dl.dropboxusercontent.com/u/11413212/BruceScreen.png" class="img-responsive" alt="Responsive image"/></a>
-		</div>
-
-		<div class="col-md-4">
-
-			<a href="/Calculator/index.html"><img src="https://dl.dropboxusercontent.com/u/11413212/CalcScreen.PNG" class="img-responsive" alt="Responsive image"/></a>
-
-
-		</div>
-
-		<div class="col-md-4">
-
-			<a href="https://codepen.io/tahbristol/full/WGBQbP/"><img src="https://dl.dropboxusercontent.com/u/11413212/MoveScreen.PNG" class="img-responsive" alt="Responsive image"/></a>
-		</div>
-
-		<div class="col-md-4">
-
-			<a href="http://tahbristol.com/DCTaiChi/Site1.html"><img src="https://dl.dropboxusercontent.com/u/11413212/DCtaiChinew.png" class="img-responsive" alt="Responsive image"/></a>
-		</div>
-
-        <div class="col-md-4">
-
-			<a href="http://www.tahbristol.com/WeatherApp/Weather.html"><img src="https://dl.dropboxusercontent.com/u/11413212/WeatherApp.png" class="img-responsive" alt="Responsive image"/></a>
-		</div>
+					<img src="https://www.dropbox.com/s/mkf713vcv6fycai/CafeScreen.png?dl=1" class="img-responsive" alt="Responsive image"/>
 
 
-		</div>
+				</div>
+
+				<div class="col-md-4">
+
+					<img src="https://www.dropbox.com/s/j4lsknhv85hyfsi/CalcScreen.PNG?dl=1" class="img-responsive" alt="Responsive image"/>
+				</div>
+
+				<div class="col-md-4">
+
+					<img src="https://www.dropbox.com/s/x36zdzrdsihuyjj/DCtaiChinew.png?dl=1" class="img-responsive" alt="Responsive image"/>
+				</div>
+
+		        <div class="col-md-4">
+
+					<img src="https://www.dropbox.com/s/rbb3bpmoo1mn3yp/WeatherApp.png?dl=1" class="img-responsive" alt="Responsive image"/>
+				</div>
+		    </div>
 
     <div class="container contact">
         <div class="row">
             <div class="col-md-8 form">
+				<!--Form-->
                 <form class="contact" role="form" action="mail.php" method="POST">
               		<div class="form-group">
                 		<label for="first">First name</label>
@@ -121,7 +126,7 @@
               		<button type="submit" class="btn" id="button">Send</button>
               </form>
             </div>
-
+			<!--Contact form info-->
             <div class="col-md-4">
                 <p class="contactP">
                 Have a request or a comment? Let me know by using the form.
@@ -139,20 +144,20 @@
     <div class="footer">
         <div class='container'>
             <div class='row'>
-
+		<!--Social Media Accounts-->
 		<div class="col-md-12 social">
 			<h4>Here are other ways to get into contact with me!</h4>
                      	   <ul>
 
-                       		 
 
-                        	<li><a target="_blank" title="follow me on twitter" href="http://www.twitter.com"><img alt="follow me on twitter"    
+
+                        	<li><a target="_blank" title="follow me on twitter" href="http://www.twitter.com"><img alt="follow me on twitter"
                                  src="https://dl.dropboxusercontent.com/u/11413212/Twitter.png" border=0></a></li>
-                                 
-                                 <li><a target="_blank" title="follow me on github" href="https://github.com/tahbristol"><i class="fa fa-github fa-lg " aria-hidden="true"></i></a></li>
+
+                                 <li id="github"><a target="_blank" title="follow me on github" href="https://github.com/tahbristol"><i class="fa fa-github fa-2x " aria-hidden="true"></i></a></li>
 
 
-                       		 <li><a target="_blank" title="follow me on linkedIn" href="https://www.linkedin.com/in/tyler-bristol-76850b109"><img alt="follow me on   
+                       		 <li><a target="_blank" title="follow me on linkedIn" href="https://www.linkedin.com/in/tyler-bristol-76850b109"><img alt="follow me on
                        		  linkedIn" src="https://dl.dropboxusercontent.com/u/11413212/linkedin.png" border=0></a></li>
 
 			   </ul>
@@ -180,23 +185,25 @@
 
 
 
-
-
-
-
-
-
-
-
+   <div class="modal fade" id="myModal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">
+					<span aria-hidden"true">&times;</span><span class="sr-only">Close</span>
+				</button>
+			</div>
+		</div>
+	</div>
+   </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="https://use.fontawesome.com/e744708715.js"></script>
 	<script src="Portfolio.js"></script>
-	
+
 	</body>
-	
-	
+
+
 
 </html>
-

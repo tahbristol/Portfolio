@@ -1,5 +1,6 @@
 $(document).ready(function() {
     $('.popUp').hide();
+   $('.details').hide();
     $(".port").click(function() {
         $('html,body').animate({
                 scrollTop: $(".sitesScroll").offset().top
@@ -23,6 +24,19 @@ $(document).ready(function() {
             'slow');
     });
 
+    $('#sistersSite').on('hover', function(){
+        $('.tooltiptext').css("visibility", "visible");
+    });
+
+
+    $('img').mouseenter(function(){
+      $(this).siblings().toggle();
+
+    });
+    $('img').mouseleave(function(){
+      $(this).siblings().toggle();
+
+    });
 
 
 

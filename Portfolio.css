@@ -69,6 +69,13 @@ p{
     margin-top:50px;
 }
 
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+	color : #333 !important;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	background-color:lightgrey;
+}
 #me {
     height:200px;
     width:225px;
@@ -220,15 +227,16 @@ img#me{
 	margin-bottom:20px;
 }
 
-.detail_text{
-	text-align: center;
+.detailText p{
+	
+
 }
 .details {
 
 
 	margin-top:60px;
 	padding-top:0px;
-	margin-left:3px;
+	width:100%;
   background-color: rgba(211,211,211, 0.5);
  position:absolute;
 
